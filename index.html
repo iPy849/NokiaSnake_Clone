@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="overlay" style="display: none;">
+        <h1>Game Over</h1>
+        <button id="tryAgain">Try Again</button>
+    </div>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="./Nokia_Logo.png" alt="logo" width="100px" height="80px" style="background-color: rgb(34,55,9);">
+            <h2>Score: <span id="score">0</span></h2>
+        </div>
+
+        <div class="content" data-cells_x="20" data-cells_y="20"></div>
+    </div>
+
+
+    <script type="text/javascript" src="./snake.js"></script>
+</body>
+</html>
